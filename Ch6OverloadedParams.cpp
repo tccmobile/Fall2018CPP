@@ -3,13 +3,12 @@
 //
 
 #include <iostream>
+#include "PenniesFunctions.h"
+
 using namespace std;
 
 /* Your solution goes here  */
 
-int NumberOfPennies(int numDollars, int numPennies=0){
-    return ((numDollars*100)+numPennies);
-}
 
 int main() {
     cout << NumberOfPennies(5, 6) << endl; // Should print 506
