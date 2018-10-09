@@ -3,4 +3,4 @@ project(Fall2018CPP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Fall2018CPP Ch6Warmup.cpp)
+add_executable(Fall2018CPP  Ch7Example2.cpp Ch7Challenge3.cpp)
