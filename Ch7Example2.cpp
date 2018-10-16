@@ -20,19 +20,16 @@ private:
     int rating ;         // -1 indicates rating was not set
 };
 
-Restaurant::Restaurant(string restaurantName, int userRating) {
-    name = restaurantName;
-    rating = userRating;
+Restaurant::Restaurant(string restaurantName, int userRating): name(restaurantName),rating(userRating) {
+
 }
 
-Restaurant::Restaurant(string restaurantName) {
-    name = restaurantName;
-    rating  = -1;
+Restaurant::Restaurant(string restaurantName): name(restaurantName),rating(-1) {
+
 }
 
-Restaurant::Restaurant() {
-    name = "NoName";
-    rating = -1;
+Restaurant::Restaurant(): name("NoName"),rating(-1) {
+
 }
 
 void Restaurant::SetName(string restaurantName) {
@@ -40,7 +37,7 @@ void Restaurant::SetName(string restaurantName) {
 }
 
 void Restaurant::SetRating(int userRating) {
-    rating = userRating;
+    this->rating = userRating;
 }
 
 void Restaurant::Print() {
@@ -62,7 +59,7 @@ int main() {
 
     //favLunchPlace.Print();
     favBreakfastPlace.SetName("IHOB");
-    favBreakfastPlace.SetRating(1);
+    favBreakfastPlace.SetRating(1); // SetRating(1,favBreakPlace)
     favBreakfastPlace.Print();
 
     return 0;

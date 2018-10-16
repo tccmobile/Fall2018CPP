@@ -1,7 +1,10 @@
 #include <iostream>
+#include "ItemToPurchase.h"
+
 using namespace std;
 
 int main() {
-    cout << "Hello, World!" << endl;
+
+    ItemToPurchase one;
     return 0;
 }
