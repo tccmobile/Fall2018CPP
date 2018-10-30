@@ -3,4 +3,4 @@ project(Fall2018CPP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Fall2018CPP simpleLinkedList.cpp)
+add_executable(Fall2018CPP  Ch9WarmUp.cpp)
