@@ -3,4 +3,4 @@ project(Fall2018CPP)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Fall2018CPP  Person.cpp Person.h InheritanceTest.cpp Student.cpp Student.h)
+add_executable(Fall2018CPP Shape.cpp Shape.h Circle.cpp Circle.h Rectangle.cpp Rectangle.h Square.cpp Square.h ShapeTester.cpp)
